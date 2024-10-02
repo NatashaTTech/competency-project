@@ -1,0 +1,57 @@
+{
+    "name": "Savage Exotics",
+    "version": "1.0.0",
+    "description": "Adopt a pet your neighbors won't expect...",
+    "main": "index.js",
+    "scripts": {
+        "server": "nodemon server/index.js",
+        "start": "PORT=4400 react-scripts start",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "seed": "mongo savage_exotics --eval 'printjson(db.dropDatabase())' && mongoimport --db=savage_exotics --collection=animals --file=server/db_seed/animal_seeds.json --jsonArray && mongoimport --db=savage_exotics --collection=users --file=server/db_seed/user_seeds.json --jsonArray",
+        "app": "concurrently \"nodemon server/index.js\" \"PORT=4400 react-scripts start\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://ca-ciw-learners-gitlab.tlm.cloud/natasha-towle-wg1048/competency-project.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.17.1",
+        "bcrypt": "^5.1.1",
+        "body-parser": "^1.18.2",
+        "concurrently": "^8.2.2",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "express": "^4.16.2",
+        "express-session": "^1.15.6",
+        "jquery": "^3.7.1",
+        "mongodb": "^6.1.0",
+        "mongoose": "^7.6.1",
+        "morgan": "^1.9.0",
+        "nodemon": "^3.0.1",
+        "passport": "^0.4.0",
+        "passport-local": "^1.0.0",
+        "react": "^18.2.0",
+        "react-bootstrap": "^2.8.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.16.0",
+        "react-scripts": "^5.0.1"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "*"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

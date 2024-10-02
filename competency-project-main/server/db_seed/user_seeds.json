@@ -1,0 +1,7 @@
+[
+    {
+        "email": "dragon@awesome.com",
+        "password": "$2b$10$ZaLQJV6397CwYKLbNGkiwOO727fgKVoGwZSemE8TBNy4kpida65Zq",
+        "cart" : ["Tyson", "Dragon"]
+    }
+]

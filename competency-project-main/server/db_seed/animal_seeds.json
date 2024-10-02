@@ -1,0 +1,111 @@
+[
+    {
+        "name": "Screaming Sally",
+        "description": "A Very Loud Companion",
+        "price": "$2,700",
+        "image": "./img/parrot.jpeg"
+    },
+    {
+        "name": "Lazy Leopard",
+        "description": "Keeps an Eye on Everything",
+        "price": "$17,500",
+        "image": "./img/leopard2.jpeg"
+    },
+    {
+        "name": "A Flock of Seagulls",
+        "description": "You'll want to \"Run So Far Away\"",
+        "price": "$1,200",
+        "image": "./img/seagulls.jpeg"
+    },
+    {
+        "name": "Tusken Raider",
+        "description": "Straight Outta Africa",
+        "price": "$32,500",
+        "image": "./img/elephant.jpeg"
+    },
+    {
+        "name": "Stinky Pink Feathers",
+        "description": "A Nice Pair of Flamingos",
+        "price": "$3,200",
+        "image": "./img/flamingos2.jpeg"
+    },
+    {
+        "name": "Fluffykins",
+        "description": "A Cow with a Kickin' Hairstyle",
+        "price": "$3,750",
+        "image": "./img/furry_cow.jpeg"
+    },
+    {
+        "name": "Very Sheepy",
+        "description": "Here's Looking At You",
+        "price": "$2,100",
+        "image": "./img/sheep.jpeg"
+    },
+    {
+        "name": "Moon Eater",
+        "description": "Become One with the Pack",
+        "price": "$12,500",
+        "image": "./img/wolf.jpeg"
+    },
+    {
+        "name": "Tyson",
+        "description": "An Effective Burglar Deterrent",
+        "price": "$27,500",
+        "image": "./img/tiger3.jpeg"
+    },
+    {
+        "name": "Dump Monkey",
+        "description": "He's Mad Cuz His House is Trashy",
+        "price": "$1,500",
+        "image": "./img/monkey2.jpeg"
+    },
+    {
+        "name": "Jungle Joe",
+        "description": "Warning: Do Not Lick!",
+        "price": "$2,300",
+        "image": "./img/orange_frog.jpeg"
+    },
+    {
+        "name": "Liberty",
+        "description": "My Country 'Tis of Thee...",
+        "price": "$5,300",
+        "image": "./img/bald_eagle3.jpeg"
+    },
+    {
+        "name": "Smokey da Bear",
+        "description": "Loves Your Garbage Cans",
+        "price": "$7,500",
+        "image": "./img/bear.jpeg"
+    },
+    {
+        "name": "Dragon",
+        "description": "Check Out Those Claws",
+        "price": "$3,600",
+        "image": "./img/monitor_lizard.jpeg"
+    },
+    {
+        "name": "Lambchops",
+        "description": "Just So Gosh Darn Cute!",
+        "price": "$2,800",
+        "image": "./img/lamb.jpeg"
+    },
+    {
+        "name": "Toucan Sam",
+        "description": "Froot Loops Not Included",
+        "price": "$3,300",
+        "image": "./img/toucan.jpeg"
+    },
+    {
+        "name": "Flipper",
+        "description": "An Accomplished Aquatic Acrobat",
+        "price": "$14,400",
+        "image": "./img/dolphin.jpeg"
+    },
+    {
+        "name": "Crush",
+        "description": "Hey Dude Let's Ride the Waves!",
+        "price": "$6,300",
+        "image": "./img/sea_turtle.jpeg"
+    }
+
+]

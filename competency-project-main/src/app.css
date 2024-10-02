@@ -1,0 +1,216 @@
+body {
+    /* background: url('../public/img/cloudy_sky.jpeg'), black; */
+    background-color: black;
+    padding-bottom: 5rem;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+h4 {
+    font-family: fantasy;
+    color: #1ac800;
+    color: white;
+    line-height: 1.5;
+}
+h4>span {
+    color: white;
+    color: orange;
+    font-size: 1.7rem;
+    /* font-weight: 900; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.border-bottom {
+    border-color:darkgreen!important;
+}
+/* ////////// Banner Header ////////// */
+.mainHeader {
+    background: black;
+    max-width: 700px;
+    /* margin-left: auto!important;
+    margin-right: auto!important; */
+}
+.header-title {
+    color: #ffffffe8;
+    color: transparent;
+    /* text-shadow: 0 0 7px limegreen; */
+    font-size: 2rem;
+    line-height: 1.2;
+    font-family: cursive;
+    background-image: linear-gradient(0deg, white 52%, darkgray 65%, black);
+    /* background-image: linear-gradient(90deg, white 10%,black,white, black,white); */
+    -webkit-background-clip: text;
+}
+.header-title>span:first-of-type {
+    font-size: 2.7rem;
+    /* font-size: 3.7rem; larger size */
+}
+.header-title>span:last-of-type {
+    font-size: 2.4rem;
+    /* font-size: 4rem; larger size */
+}
+.header-subtitle {
+    color:#1ac800;
+    /* color: transparent; */
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 1rem!important;
+    /* background-image: linear-gradient(180deg,darkgreen, lime, black); */
+    /* -webkit-background-clip: text; */
+}
+.mainHeader>div>img {
+    height: 7rem;
+    /* height: 10rem;
+    margin-left: -4rem;
+    margin-top: -1rem; */
+}
+
+/* ////////// Nav Bar ////////// */
+.topNav>a>img {
+    height: 3rem;
+}
+.topNav {
+    background: linear-gradient(black -62%, #404040 85%)!important;
+    padding: 0;
+    /* background: darkorange!important; */
+    /* background: white!important; */
+    /* border-bottom: 1px solid #1ac800; */
+}
+.btn-theme {
+    font-weight: 200;
+    font-size: 1.2rem;
+    /* font-family: "kannada mn"; */
+    background-color: transparent!important;
+    /* border: .1rem solid #1ac800!important; */
+    border: none!important;
+    padding: 0rem 1.3rem;
+    /* border-radius: 5px 5px 0 0; */
+    /* color: white!important; */
+    transition: color 250ms linear;
+}
+.btn-theme:hover {
+    /* background-color: darkgreen!important; */
+    color: #1ac800;
+}
+.topNav>button:active {
+    color: red!important;
+}
+.navbar-toggler-icon {
+    color: white!important;
+}
+.activeLink {
+    background-color: red!important;
+}
+
+/* ////////// Home Page ////////// */
+.landing-carousel {
+    height: 15rem;
+}
+
+/* ////////// About Page ////////// */
+.review:first-of-type, .review:last-of-type  {
+    /* background-color: darkred; */
+    border-image: linear-gradient(45deg, limegreen , orange 70%) 4 / 2px;
+
+}
+.about-heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-heading>div>span {
+    /* font-size: 2.5rem; */
+}
+.about-heading>div:first-of-type {
+    color: #1ac800;
+    color: #ffcc00;
+}
+.about-heading>div:last-of-type {
+    color: #1ac800;
+    color: #ffcc00;
+
+}
+.review-container {
+    /* border-image: linear-gradient(45deg, limegreen , orange 70%) 4 / 2px; */
+
+}
+.about-heading.h3 {
+    font-family: 'Times New Roman', Times, serif;
+    /* text-shadow: 0 0 .2rem orange; */
+    /* color: #dc3545!important; */
+    color:limegreen!important;
+}
+i {
+    color: #ffcc00;
+}
+.lg-letter {
+    font-size: 2rem;
+}
+
+/* ////////// Login/Registration ////////// */
+
+#login-form, #registration-form {
+    /* border: 8px solid white; */
+    border-image: linear-gradient(45deg, limegreen , orange 70%) 4 / 6px;
+}
+
+
+/* ////////// Shop Page ////////// */
+.card {
+    transition: all 200ms linear;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.buyNowBtn:hover {
+    animation: 200ms shiny linear;
+}
+/* ////////// Shopping Cart ////////// */
+.cartItem {
+    border-image: linear-gradient(45deg, limegreen , orange 70%) 4 / 2px;
+}
+.cartItemImg {
+    height: 4rem;
+}
+
+/* ////////// Footer ////////// */
+.footer {
+    font: .8rem "courier new";
+    color: white;
+    width: 100%;
+    /* line-height: 2; */
+}
+
+/* ////////// Keyframes ////////// */
+@keyframes shiny {
+    12.5% { background-image: linear-gradient(45deg, #fff, transparent 25%); }
+    25% { background-image: linear-gradient(45deg, transparent, #fff , transparent 50%); }
+    37.5% { background-image: linear-gradient(45deg, transparent, #fff, transparent 75%); }
+    50% { background-image: linear-gradient(45deg, transparent, #fff, transparent); }
+    62.5% { background-image: linear-gradient(45deg, transparent 25%, #fff, transparent); }
+    75% { background-image: linear-gradient(45deg, transparent 50%, #fff, transparent); }
+    87.5% { background-image: linear-gradient(45deg, transparent 75%, #fff); }
+    }
+
+/* ///// Media Queries ///// */
+@media screen and (min-width: 1024px) {
+    .header-title {
+    font-size: 2.8rem; 
+    margin-top: -1rem;
+    }
+    .header-title>span:first-of-type {
+        font-size: 3.9rem;
+    }
+    .header-title>span:last-of-type {
+        font-size: 3.8rem;
+    }
+    .header-subtitle {
+        font-size: 1.2rem;
+        margin: -5rem -3rem 0 8rem;
+    }
+    .mainHeader>div>img {
+        height: 10rem;
+        /* margin-left: -4rem; */
+        /* margin-top: -1rem; */
+    }
+    .landing-carousel {
+        height: 20rem;
+    }
+}
