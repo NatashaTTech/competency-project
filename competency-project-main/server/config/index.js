@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
-const url = 'mongodb://localhost/savage_exotics';
+const url = 'mongodb://127.0.0.1/savage_exotics';
 
 mongoose.connect(url,
     {

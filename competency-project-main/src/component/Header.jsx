@@ -14,7 +14,7 @@ const Header = ({ image, subtitle }) => {
                 <div className="header-title col-4 col-md-6 pt-2 pt-md-4">
                     <span>S</span>avage <span>E</span>xotics
                     </div>
-                <div className="header-subtitle  col-12 col-md-5 py-3 px-4">{subtitle}</div>
+                <div className="header-subtitle col-12  col-md-5 py-3 px-4">{subtitle}</div>
                 {/* </div> */}
             </div>
         </>
